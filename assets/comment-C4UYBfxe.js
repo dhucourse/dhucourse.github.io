@@ -1,0 +1,1 @@
+import{j as e}from"./index-CnmwwGkb.js";const n=t=>e.get("/comment/getCommentsByCourseId?courseId="+t),o=t=>e.post("/comment/add",t),r=t=>e.put("/comment/like?commentId="+t),s=t=>e.put("/comment/dislike?commentId="+t),c=()=>e.get("/comment/random"),a=()=>e.get("/comment/number");export{a,n as b,o as c,s as d,c as g,r as l};
